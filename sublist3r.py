@@ -989,7 +989,7 @@ def main(domain, threads, savefile, ports, silent, verbose, enable_bruteforce, e
 
         elif not silent:
             for subdomain in subdomains:
-                print(G + subdomain + W)
+                print(subdomain)
     return subdomains
 
 
